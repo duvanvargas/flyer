@@ -67,7 +67,7 @@ const Flyer = () => {
             <RandomReveal
               isPlaying
               duration={3}
-              characters={"2 JUN, 5AM - ???"}
+              characters={"2 JUN, 4AM - ???"}
             />
           </div>
         </div>
