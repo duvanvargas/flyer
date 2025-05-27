@@ -35,9 +35,12 @@ const Flyer = () => {
   if (!isVisible) {
     return null;
   }
+
   return (
     <div className="animate-fade-in">
-      <div className="absolute top-0 left-0 p-5">
+      <div className="absolute top-0 left-0 p-5 font-medium">APRETAITO</div>
+      <div className="absolute top-0 right-0 p-5">0x00000002</div>
+      <div className="absolute top-20 left-0 p-5">
         {djs.map((dj, index) => (
           <div
             key={index}
