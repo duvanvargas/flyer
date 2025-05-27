@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
-import Spline from "@splinetool/react-spline/next";
 import { useState } from "react";
 import { RandomReveal } from "react-random-reveal";
 
 const Flyer = () => {
-  const [djs, setDjs] = useState([
+  const djs = [
     {
       name: "JAG",
     },
@@ -21,7 +20,7 @@ const Flyer = () => {
     {
       name: "LUSTPOINTER",
     },
-  ]);
+  ];
 
   const [isVisible, setIsVisible] = useState(false);
 
