@@ -12,6 +12,12 @@ const Flyer = () => {
       name: "JACC.WAV",
     },
     {
+      name: "VICTORIA H",
+    },
+    {
+      name: "AMADO",
+    },
+    {
       name: "LOUVREZE",
     },
     {
